@@ -12,12 +12,32 @@ const Species = () => {
   const [showStats, setShowStats] = useState(false);
 
   const species = [
-    "Reh",
-    "Wildschwein",
     "Fuchs",
+    "Biber",
+    "Kaninchen",
+    "Mäusebussard",
+    "Eichhörnchen",
+    "Reh",
     "Hirsch",
+    "Vogel",
+    "Wolf",
+    "Luchs",
+    "Otter",
+    "Eule (Waldkauz)",
+    "Fledermaus",
+    "Maulwurf",
+    "Maus",
+    "Ratte",
+    "Wühlmaus",
+    "Igel",
     "Dachs",
+    "Waschbär",
     "Marder",
+    "Goldschakal",
+    "Elch",
+    "Stachelschwein",
+    "Rentier",
+    "Vielfraß",
   ];
 
   const locationData = [
@@ -84,6 +104,7 @@ const Species = () => {
                     <SelectItem value="3months">Letzte 3 Monate</SelectItem>
                     <SelectItem value="6months">Letzte 6 Monate</SelectItem>
                     <SelectItem value="1year">Letztes Jahr</SelectItem>
+                    <SelectItem value="all">Gesamter Zeitraum</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -132,7 +153,7 @@ const Species = () => {
 
               <Card className="p-6 shadow-soft">
                 <h2 className="text-2xl font-semibold text-foreground mb-4">
-                  Zeitlicher Verlauf
+                  Sichtungen
                 </h2>
                 <p className="text-muted-foreground mb-6">
                   Anzahl der Sichtungen über den gewählten Zeitraum

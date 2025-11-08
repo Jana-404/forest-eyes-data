@@ -10,6 +10,7 @@ const Navigation = () => {
     { path: "/species", label: "Tierarten" },
     { path: "/cameras", label: "Kameras" },
     { path: "/identification", label: "Identifikation" },
+    { path: "/about", label: "Über uns" },
   ];
 
   return (
