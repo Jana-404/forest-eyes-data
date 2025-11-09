@@ -1,13 +1,12 @@
-import { useState } from "react";
 import Navigation from "@/components/Navigation";
+import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { CheckCircle2, X, Info } from "lucide-react";
+import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
+import { CheckCircle2, Info, X } from "lucide-react";
+import { useState } from "react";
 
 const Identification = () => {
   const [species, setSpecies] = useState("");
@@ -71,7 +70,7 @@ const Identification = () => {
 
           <Card className="p-6 shadow-elevated">
             <div className="space-y-6">
-              <div>
+              {/* <div>
                 <h2 className="text-xl font-semibold mb-4">Zu identifizierendes Bild</h2>
                 <div className="bg-muted rounded-lg aspect-video flex items-center justify-center">
                   <p className="text-muted-foreground">
@@ -81,7 +80,7 @@ const Identification = () => {
                 <p className="text-sm text-muted-foreground mt-2">
                   Aufnahme vom 08.11.2025, 18:42 Uhr - Kamera 2 (Lichtung Ost)
                 </p>
-              </div>
+              </div> */}
 
               <div className="space-y-2">
                 <Label htmlFor="species">Tierart *</Label>
