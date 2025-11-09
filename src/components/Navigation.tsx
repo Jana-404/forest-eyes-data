@@ -11,6 +11,8 @@ const Navigation = () => {
     { path: "/cameras", label: "Kameras" },
     { path: "/identification", label: "Identifikation" },
     { path: "/about", label: "Über uns" },
+    { path: "/biodiversity", label: "Biodiversität" },
+
   ];
 
   return (

@@ -23,32 +23,61 @@ const About = () => {
       
       <main className="container mx-auto px-4 pt-24 pb-12">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold text-foreground mb-2">Über uns</h1>
+          <h1 className="text-4xl font-bold text-foreground mb-2">Über uns - WILDWATCH</h1>
           <p className="text-muted-foreground mb-8">
-            Wildtiererkennung für unsere Region
+            Daten für Artenvielfalt. Lokal erfasst, global genutzt.
           </p>
 
           <Card className="p-8 mb-8 shadow-soft">
-            <h2 className="text-2xl font-semibold text-foreground mb-4">Das Projekt</h2>
+            <h2 className="text-2xl font-semibold text-foreground mb-4">Unsere Mission</h2>
             <div className="space-y-4 text-foreground/90">
               <p>
-                Das WildCam-Projekt wurde von <strong>Smart City Hameln-Pyrmont</strong> ins 
-                Leben gerufen und entstand im Rahmen des <strong>Hamelnhack</strong> – einem 
-                innovativen Hackathon, der digitale Lösungen für regionale Herausforderungen entwickelt.
-              </p>
-              <p>
-                Unser Ziel ist es, <strong>Bürgerinnen und Bürger aktiv in die Naturbeobachtung 
-                einzubeziehen</strong> und Tierbeobachtungen in der Region systematisch zu dokumentieren. 
-                Gleichzeitig stellen wir wertvolle Informationen für Förster bereit, die so einen 
-                besseren Überblick über die Wildtierpopulation erhalten.
-              </p>
-              <p>
-                Durch den Einsatz moderner Wildkameras und KI-gestützter Bilderkennung machen wir 
-                die heimische Tierwelt sichtbar und schaffen eine Datenbasis für nachhaltiges 
-                Wildtiermanagement.
+                Wir wollen wissen, was im Wald passiert.
+                Welche Tiere leben hier? Welche kehren zurück? Und welche verschwinden?
+                Mit WildWatch machen wir das Unsichtbare sichtbar – durch moderne Sensorik, künstliche Intelligenz und die Kraft einer engagierten Gemeinschaft.
+                Denn nur was wir sehen, können wir schützen.
               </p>
             </div>
           </Card>
+
+          <Card className="p-8 mb-8 shadow-soft">
+            <h2 className="text-2xl font-semibold text-foreground mb-4">Unsere Vision</h2>
+            <div className="space-y-4 text-foreground/90">
+              <p>
+               Ein Europa, das seine Tierwelt wieder sieht – klar, vernetzt, lebendig.
+WildWatch ist mehr als eine Plattform: Es ist ein Frühwarnsystem für die Natur, ein Werkzeug für Schutzgebiete und ein Ort für alle, die Verantwortung übernehmen wollen.
+              </p>
+            </div>
+          </Card>
+
+          
+                    <Card className="p-8 mb-8 shadow-soft">
+            <h2 className="text-2xl font-semibold text-foreground mb-4">Warum das zählt</h2>
+            <div className="space-y-4 text-foreground/90">
+              <p>
+                Unsere Natur verändert sich im Stillen. Arten verschwinden und Lebensräume geraten aus dem Gleichgewicht.
+Noch fehlen genaue Daten, um diese Entwicklungen rechtzeitig zu erkennen – und genau hier setzt WildWatch an.
+Jedes Bild, jede Meldung, jede Bestätigung bringt uns der Antwort näher:
+Wie steht es wirklich um unsere Wildtiere?
+Mit vereinten Kräften von Förstern, Forschern und Naturfreunden entsteht ein neues Verständnis für die Vielfalt des Lebens.
+              </p>
+            </div>
+          </Card>
+
+          
+          <Card className="p-8 mb-8 shadow-soft">
+            <h2 className="text-2xl font-semibold text-foreground mb-4">Unsere Ziele</h2>
+            <div className="space-y-4 text-foreground/90">
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Wildtierbestände sichtbar und nachvollziehbar machen</li>
+                <li>Wanderungen und Populationsveränderungen frühzeitig erkennen</li>
+                <li>Bedrohte oder invasive Arten aufspüren</li>
+                <li>Offene Daten für Wissenschaft und Gesellschaft bereitstellen</li>
+                <li>Mit Technologie und Gemeinschaft Biodiversität sichern</li>
+              </ul>
+            </div>
+          </Card>
+
 
           <Card className="p-8 mb-8 shadow-soft bg-gradient-card">
             <h2 className="text-2xl font-semibold text-foreground mb-6">Projektstatistiken</h2>

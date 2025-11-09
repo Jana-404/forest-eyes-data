@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Species from "./pages/Species";
 import Cameras from "./pages/Cameras";
 import Identification from "./pages/Identification";
+import Biodiversity from "./pages/Biodiversity";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/species" element={<Species />} />
           <Route path="/cameras" element={<Cameras />} />
           <Route path="/identification" element={<Identification />} />
+          <Route path="/biodiversity" element={<Biodiversity />} />
           <Route path="/about" element={<About />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

@@ -7,13 +7,13 @@ const Index = () => {
   const features = [
     {
       icon: Camera,
-      title: "Wildkamera-Netzwerk TESTVERSION",
-      description: "Moderne Kameratechnologie ermöglicht die kontinuierliche Überwachung verschiedener Waldgebiete rund um die Uhr."
+      title: "Kamera-Netzwerk",
+      description: "WildWatch nutzt ein Netzwerk moderner Wildkameras, die strategisch in verschiedenen Waldgebieten installiert sind. Sie erfassen kontinuierlich Tierbewegungen – Tag und Nacht, bei jedem Wetter – und liefern so ein verlässliches Bild der lokalen Tierwelt. In Zukunft sollen auch private Kameras, Drohnen und zusätzliche Sensoren eingebunden werden, um die Datenbasis weiter zu erweitern und schwer zugängliche Gebiete abzudecken."
     },
     {
       icon: BarChart3,
-      title: "Datenanalyse",
-      description: "Umfassende Statistiken zu Tierarten, Sichtungshäufigkeiten und saisonalen Mustern für fundierte Entscheidungen."
+      title: "KI-gestützte Datenanalyse",
+      description: "Eine eigens trainierte künstliche Intelligenz unterstützt bei der Auswertung der Aufnahmen. Sie erkennt Tierarten automatisch, dokumentiert Bewegungsmuster und liefert aussagekräftige Statistiken über Populationsentwicklungen. Förster und Forschende prüfen die Ergebnisse bei Unsicherheiten und geben Feedback, wodurch die KI kontinuierlich verbessert wird."
     },
     {
       icon: Map,
@@ -61,16 +61,10 @@ const Index = () => {
             </h2>
             <Card className="p-8 shadow-elevated">
               <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                Unser Wildkamera-Projekt nutzt modernste Technologie zur Erfassung und Analyse 
-                der lokalen Wildtierpopulation. Durch strategisch platzierte Kameras in verschiedenen 
-                Waldgebieten sammeln wir kontinuierlich Daten über Bewegungsmuster, Populationsdichten 
-                und Verhaltensweisen heimischer Tierarten.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Die gewonnenen Erkenntnisse ermöglichen eine nachhaltige Bewirtschaftung des Waldes 
-                und tragen zum Schutz der Biodiversität bei. Künstliche Intelligenz unterstützt uns 
-                bei der Auswertung tausender Aufnahmen und wird durch erfahrene Förster kontinuierlich 
-                trainiert und verbessert.
+          WILDWATCH ist ein Gemeinschaftsprojekt, das modernste KI-Technologie mit dem Engagement einer wachsenden Community verbindet. Ziel ist es, heimische Wildtierbestände besser zu verstehen und langfristig zu schützen.
+Über ein Netzwerk aus Wildkameras erfassen wir Daten zu Bewegungsmustern, Populationsdichten und Verhaltensweisen verschiedenster Tierarten. Eine eigens KI- Model unterstützt bei der automatischen Erkennung und Auswertung der Aufnahmen, während Försterinnen, Forscher und Naturbegeisterte ihr Wissen einbringen, um die Ergebnisse zu verbessern.
+Die gewonnenen Erkenntnisse fließen direkt in Maßnahmen zum Schutz und zur nachhaltigen Bewirtschaftung unserer Wälder ein. Gleichzeitig bietet WILDWATCH allen Teilnehmenden die Möglichkeit, aktiv Teil des Projekts zu werden – durch das Teilen von Beobachtungen, die Analyse von Daten oder den Austausch innerhalb der Community.
+So entsteht eine Plattform, die Forschung, Naturschutz und gemeinsames Handeln vereint – für eine Zukunft, in der Mensch und Natur im Einklang stehen.
               </p>
             </Card>
           </section>
@@ -84,7 +78,7 @@ const Index = () => {
               {features.map((feature, index) => (
                 <Card 
                   key={index} 
-                  className="p-6 shadow-soft hover:shadow-elevated transition-all duration-300 hover:-translate-y-1"
+                  className="p-6 shadow-soft"
                 >
                   <div className="flex items-start gap-4">
                     <div className="p-3 bg-primary/10 rounded-lg shrink-0">
