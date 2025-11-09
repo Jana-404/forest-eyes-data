@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import { Card } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import KameraKarte from "@/assets/Kamera-karte.jpg";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
@@ -53,15 +54,18 @@ const Cameras = () => {
             Analysieren Sie die Aufnahmen einzelner Wildkameras
           </p>
 
+
           <Card className="p-6 mb-8 shadow-soft">
             <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
               <MapPin className="w-5 h-5 text-primary" />
               Kamera-Standorte
             </h2>
-            <div className="bg-muted rounded-lg h-64 flex items-center justify-center mb-6">
-              <p className="text-muted-foreground">
-                Kartenansicht - Integration verfügbar mit Mapbox
-              </p>
+            <div className="bg-muted rounded-lg h-96 mb-6 max-w-xl mx-auto">
+              <img 
+                src={KameraKarte}
+                alt="Kamera Karte"
+                className="w-full h-full object-contain rounded-lg"
+              />
             </div>
 
             <div className="grid md:grid-cols-3 gap-6">
@@ -163,6 +167,7 @@ const Cameras = () => {
                       dataKey="aktivität" 
                       fill="hsl(var(--primary))"
                       radius={[8, 8, 0, 0]}
+                      name="Aktivität"
                     />
                   </BarChart>
                 </ResponsiveContainer>

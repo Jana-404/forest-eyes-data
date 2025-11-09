@@ -49,12 +49,12 @@ const Species = () => {
   ];
 
   const timelineData = [
-    { month: "Jan", sichtungen: 12 },
-    { month: "Feb", sichtungen: 19 },
-    { month: "Mär", sichtungen: 15 },
-    { month: "Apr", sichtungen: 25 },
-    { month: "Mai", sichtungen: 32 },
-    { month: "Jun", sichtungen: 28 },
+    { month: "Jan", Sichtungen: 12 },
+    { month: "Feb", Sichtungen: 19 },
+    { month: "Mär", Sichtungen: 15 },
+    { month: "Apr", Sichtungen: 25 },
+    { month: "Mai", Sichtungen: 32 },
+    { month: "Jun", Sichtungen: 28 },
   ];
 
   const handleAnalyze = () => {
@@ -173,7 +173,7 @@ const Species = () => {
                     <Legend />
                     <Line 
                       type="monotone" 
-                      dataKey="sichtungen" 
+                      dataKey="Sichtungen" 
                       stroke="hsl(var(--primary))" 
                       strokeWidth={2}
                       dot={{ fill: 'hsl(var(--primary))', r: 4 }}
