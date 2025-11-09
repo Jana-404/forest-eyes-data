@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "./ui/button";
-import { Camera } from "lucide-react";
+import wildwatchLogo from "@/assets/wildwatch-logo.png";
 
 const Navigation = () => {
   const location = useLocation();
@@ -19,7 +19,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-8">
             <Link to="/" className="flex items-center gap-2 text-primary font-bold text-xl">
-              <Camera className="w-6 h-6" />
+              <img src={wildwatchLogo} alt="WILDWATCH Logo" className="w-10 h-10" />
               <span>WILDWATCH</span>
             </Link>
             
