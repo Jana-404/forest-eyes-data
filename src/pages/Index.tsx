@@ -7,7 +7,7 @@ const Index = () => {
   const features = [
     {
       icon: Camera,
-      title: "Wildkamera-Netzwerk",
+      title: "Wildkamera-Netzwerk TESTVERSION",
       description: "Moderne Kameratechnologie ermöglicht die kontinuierliche Überwachung verschiedener Waldgebiete rund um die Uhr."
     },
     {
