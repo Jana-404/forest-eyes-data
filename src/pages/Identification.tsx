@@ -90,14 +90,32 @@ const Identification = () => {
                     <SelectValue placeholder="Wählen Sie die identifizierte Tierart" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="reh">Reh (Capreolus capreolus)</SelectItem>
-                    <SelectItem value="wildschwein">Wildschwein (Sus scrofa)</SelectItem>
-                    <SelectItem value="fuchs">Fuchs (Vulpes vulpes)</SelectItem>
-                    <SelectItem value="hirsch">Rothirsch (Cervus elaphus)</SelectItem>
-                    <SelectItem value="dachs">Dachs (Meles meles)</SelectItem>
-                    <SelectItem value="marder">Steinmarder (Martes foina)</SelectItem>
-                    <SelectItem value="hase">Feldhase (Lepus europaeus)</SelectItem>
-                    <SelectItem value="waschbaer">Waschbär (Procyon lotor)</SelectItem>
+                    <SelectItem value="fuchs">Fuchs</SelectItem>
+                    <SelectItem value="biber">Biber</SelectItem>
+                    <SelectItem value="kaninchen">Kaninchen</SelectItem>
+                    <SelectItem value="maeusebussard">Mäusebussard</SelectItem>
+                    <SelectItem value="eichhoernchen">Eichhörnchen</SelectItem>
+                    <SelectItem value="reh">Reh</SelectItem>
+                    <SelectItem value="hirsch">Hirsch</SelectItem>
+                    <SelectItem value="vogel">Vogel</SelectItem>
+                    <SelectItem value="wolf">Wolf</SelectItem>
+                    <SelectItem value="luchs">Luchs</SelectItem>
+                    <SelectItem value="otter">Otter</SelectItem>
+                    <SelectItem value="waldkauz">Eule (Waldkauz)</SelectItem>
+                    <SelectItem value="fledermaus">Fledermaus</SelectItem>
+                    <SelectItem value="maulwurf">Maulwurf</SelectItem>
+                    <SelectItem value="maus">Maus</SelectItem>
+                    <SelectItem value="ratte">Ratte</SelectItem>
+                    <SelectItem value="wuehlmaus">Wühlmaus</SelectItem>
+                    <SelectItem value="igel">Igel</SelectItem>
+                    <SelectItem value="dachs">Dachs</SelectItem>
+                    <SelectItem value="waschbaer">Waschbär</SelectItem>
+                    <SelectItem value="marder">Marder</SelectItem>
+                    <SelectItem value="goldschakal">Goldschakal</SelectItem>
+                    <SelectItem value="elch">Elch</SelectItem>
+                    <SelectItem value="stachelschwein">Stachelschwein</SelectItem>
+                    <SelectItem value="rentier">Rentier</SelectItem>
+                    <SelectItem value="vielfrass">Vielfraß</SelectItem>
                     <SelectItem value="unknown">Unbekannt/Unsicher</SelectItem>
                   </SelectContent>
                 </Select>

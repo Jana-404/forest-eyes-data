@@ -55,9 +55,9 @@ const Index = () => {
       <main className="container mx-auto px-4 py-16">
         <div className="max-w-6xl mx-auto">
           {/* Project Info */}
-          <section className="mb-16">
+          <section className="mb-16 mt-8">
             <h2 className="text-3xl font-bold text-foreground mb-6 text-center">
-              Über das Projekt
+              Das Projekt
             </h2>
             <Card className="p-8 shadow-elevated">
               <p className="text-lg text-muted-foreground leading-relaxed mb-4">

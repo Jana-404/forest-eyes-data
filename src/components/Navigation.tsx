@@ -20,7 +20,7 @@ const Navigation = () => {
           <div className="flex items-center gap-8">
             <Link to="/" className="flex items-center gap-2 text-primary font-bold text-xl">
               <Camera className="w-6 h-6" />
-              <span>WildCam</span>
+              <span>WILDWATCH</span>
             </Link>
             
             <div className="hidden md:flex items-center gap-6">
