@@ -1,6 +1,6 @@
 import Navigation from "@/components/Navigation";
 import { Card } from "@/components/ui/card";
-import { Camera, BarChart3, Map, Brain } from "lucide-react";
+import { Camera, BarChart3, Users, Brain } from "lucide-react";
 import heroImage from "@/assets/hero-forest.jpg";
 
 const Index = () => {
@@ -8,22 +8,22 @@ const Index = () => {
     {
       icon: Camera,
       title: "Kamera-Netzwerk",
-      description: "WildWatch nutzt ein Netzwerk moderner Wildkameras, die strategisch in verschiedenen Waldgebieten installiert sind. Sie erfassen kontinuierlich Tierbewegungen – Tag und Nacht, bei jedem Wetter – und liefern so ein verlässliches Bild der lokalen Tierwelt. In Zukunft sollen auch private Kameras, Drohnen und zusätzliche Sensoren eingebunden werden, um die Datenbasis weiter zu erweitern und schwer zugängliche Gebiete abzudecken."
+      description: "WildWatch nutzt moderne Wildkameras in verschiedenen Waldgebieten. Sie erfassen Tiere rund um die Uhr und liefern ein verlässliches Bild der lokalen Tierwelt. Zukünftig werden auch private Kameras, Drohnen und weitere Sensoren eingebunden, um schwer zugängliche Gebiete besser zu erfassen."
     },
     {
       icon: BarChart3,
-      title: "KI-gestützte Datenanalyse",
-      description: "Eine eigens trainierte künstliche Intelligenz unterstützt bei der Auswertung der Aufnahmen. Sie erkennt Tierarten automatisch, dokumentiert Bewegungsmuster und liefert aussagekräftige Statistiken über Populationsentwicklungen. Förster und Forschende prüfen die Ergebnisse bei Unsicherheiten und geben Feedback, wodurch die KI kontinuierlich verbessert wird."
+      title: "KI-gestützte Analyse",
+      description: "Eine eigens trainierte KI erkennt Tierarten automatisch, dokumentiert Bewegungen und erstellt Statistiken über Populationen. Bei Unsicherheiten prüfen Förster und Forschende die Daten, wodurch die KI kontinuierlich verbessert wird."
     },
     {
-      icon: Map,
-      title: "Standort-Übersicht",
-      description: "Geografische Visualisierung aller Kamerastandorte mit detaillierten Informationen zu jedem Beobachtungspunkt."
+      icon: Users,
+      title: "Community",
+      description: "Die Plattform lebt von der Beteiligung der Community. Naturbegeisterte, Forschende und Förster teilen Beobachtungen, überprüfen KI-Ergebnisse und tragen so aktiv zum Schutz der Tierwelt bei."
     },
     {
       icon: Brain,
-      title: "KI-gestützte Erkennung",
-      description: "Künstliche Intelligenz zur automatischen Tieridentifikation, kontinuierlich verbessert durch Förster-Feedback."
+      title: "Zusammenarbeit mit Förstern und Forschenden",
+      description: "WildWatch verbindet Bürgerbeteiligung mit fachlicher Expertise. Förster und Wissenschaftler prüfen die Daten, trainieren die KI und sorgen dafür, dass die Plattform zuverlässige Informationen für Forschung, Naturschutz und nachhaltige Waldwirtschaft liefert."
     }
   ];
 
